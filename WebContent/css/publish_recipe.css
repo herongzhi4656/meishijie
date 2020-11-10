@@ -1,0 +1,481 @@
+/*中间效果*/
+.main{
+    width:990px;
+    margin:0px auto;
+}
+.bbtitles{
+    height:120px;
+    line-height:120px;
+    font-size:24px;
+    color:#222;
+    text-align:center;
+    font-family: Microsoft Yahei;
+    position: relative;
+    display: block;
+}
+.item{
+    width:990px;
+    background:#fff;
+    margin-bottom:50px;
+}
+.uploadbox{
+    clear:both;
+}
+.uploadbox{
+    padding:30px 50px 50px;
+    padding-right:0px;
+    width:940px;
+    position:relative;
+}
+.uploaditem{
+    padding-bottom:30px;
+}
+.uploaditem h5{
+    font-size:14px;
+    color:#333;
+    line-height:23px;
+    height:34px;
+}
+.uploaditem .row1_box{
+    height:44px;
+}
+.upload_tips{
+    background:#40b0ff;
+    position:absolute;
+    border-radius:4px;
+    vertical-align:top;
+    line-height:18px;
+    font-size:12px;
+    padding:10px 14px;
+    color:#fff;
+    display:none;
+}
+
+.input_text_item{
+    height:44px;
+    line-height:44px;
+    background:#fff;
+    width:482px;
+    display:inline-block;
+    vertical-align: top;
+    margin-right:10px;
+    position:relative;
+}
+/*文本框设置*/
+.input_text_item input{
+    width:466px;
+    border:1px solid #ddd;
+    font-size:14px;
+    color:#333;
+    /*height:22px;*/
+    padding:10px 0px 10px 14px;
+    line-height:22px;
+}
+.selectitem{
+    height:45px;
+    line-height:42px;
+    width:124px;
+    border:1px solid #ddd;
+    display:inline-block;
+    vertical-align: top;
+    margin-right:10px;
+    position:relative;
+}
+.selectitem dl{
+    position:absolute;
+    top:0px;
+    z-index:500;
+}
+.selectitem dl dt{
+    display:block;
+    height:42px;
+    width:120px;
+    font-size:14px;
+    text-indent:14px;
+    background:#fff url(https://s2.ax1x.com/2019/12/09/Q0QQrF.png)  right top no-repeat;
+    position:relative;
+    z-index:100;
+    line-height: 42px;
+    font-weight: normal;
+}
+.selectitem dl dd{
+    width:360px;
+    border:1px solid #ddd;
+    background:#fff;
+    margin-top:0px;
+    position:absolute;
+    z-index:50;
+    left:-1px;
+}
+/*设置属性类型下的选择的样式*/
+.selectitem dl dd span{
+    display:block;
+    height:42px;
+    line-height:42px;
+    width:120px;
+    color:#999;
+    background:#fff;
+    text-indent:14px;
+    font-size:14px;
+    float:left;
+}
+.textareaitem{
+    height:300px;
+    width:500px;
+    background:#fff;
+    display:inline-block;
+    vertical-align: top;
+    position:absolute;
+    float:left;
+    top:469px;
+    right:10px;
+}
+.textareaitem input{
+    padding:14px;
+    border:1px solid #ddd;
+    height:270px;
+    width:470px;
+    font-size:14px;
+    color:#333;
+    overflow:auto;
+}
+/*设置记录所有原材料小提示*/
+.upload_tips_style3{
+    margin:0px 50px;
+    background:#eee;
+    color:#999;
+    font-size:12px;
+    line-height:18px;
+    padding:10px 14px 14px;
+}
+/*设置主料选项框*/
+.row1_box_half{
+    width:425px;
+    display:inline-block;
+    vertical-align:top;
+    margin-right:10px;
+    margin-bottom:10px;
+    position:relative;
+}
+.suggestions{
+    position:absolute;
+    left:0px;
+    top:44px;
+    z-index:4000;
+    bcakground:#fff;
+}
+.autoSuggestionsList{
+    width:228px;
+    border:1px solid #ddd;
+    background:#fff;
+    position:relative;
+    z-index:500;
+    padding-bottom:0px;
+}
+/*主料选项框1*/
+.input_text_item1{
+    height:44px;
+    line-height:44px;
+    background:#fff;
+    width:230px;
+    display:inline-block;
+    vertical-align:top;
+    margin-right:10px;
+}
+.input_text_item1 input,.input_text_item2 input{
+    padding:10px 0px 10px 14px;
+    line-height:22px;
+    width:214px;
+    border:1px solid #ddd;
+    background:#fff;
+    font-size:14px;
+    color:#333;
+}
+.input_text_item2 input{
+    width:100px;
+}
+/*主料选项框2*/
+.input_text_item2{
+    height:44px;
+    line-height:44px;
+    width:100px;
+    background:#fff;
+    display:inline-block;
+    vertical-align:top;
+    position:relative;
+}
+/*旁边的×按钮*/
+.delsc{
+    width:44px;
+    height:44px;
+    display:inline-block;
+    vertical-align:top;
+    margin-right:10px;
+    background:url("https://s2.ax1x.com/2019/12/10/Q0oJun.gif") 0px 0px no-repeat;
+}
+.delsc:hover{
+    background-position:0px -44px;
+    cursor:pointer;
+}
+/*增加一项*/
+.addsc_item{
+    height:44px;
+    background:#eaeaea;
+    color:#666;
+    font-size:14px;
+    line-height:44px;
+    text-align:center;
+    display:inline-block;
+    vertical-align:top;
+    padding:0px 20px;
+}
+.addsc_item:hover{
+    background: #e90000;
+    background-position: center bottom;
+    color:#fff;
+    font-family:"微软雅黑";
+}
+/*开始写步骤部分*/
+.upload_tips_style3 strong{
+    color:#333;
+    font-weight:bold;
+    line-height:24px;
+}
+.muluploadbox{
+    width:940px;
+    padding:40px 0px 0px 50px;
+    position:relative;
+}
+.uploadify{
+    position:relative;
+    width:120px;
+}
+/*设置步骤描述旁边的小按钮*/
+.step_rightbtns a{
+    display:block;
+    height:28px;
+    width:28px;
+    background:url("https://s2.ax1x.com/2019/12/10/Q0oJun.gif") no-repeat;
+}
+.step_rightbtns a.moveUp{
+    background-position:0px -144px;
+}
+.step_rightbtns a.moveDown{
+    background-position:0px -88px;
+}
+.step_rightbtns a.addStep{
+    background-position:0px -256px;
+}
+.step_rightbtns a.delStep{
+    background-position:0px -200px;
+}
+/*批量上传*/
+.uploadify-button{
+    background-color:#ff3232;
+    background-position:center top;
+    background-repeat:no-repeat;
+    border-radius:4px;
+    color:#fff;
+    font:14px 微软雅黑;
+    display:block;
+    text-align:center;
+    cursor:pointer;
+}
+.uploadify:hover .uploadify-button{
+    background:#e90000;
+    background-position:center bottom;
+    color:#fff;
+    font-family:"微软雅黑";
+}
+.muluploadbox .tip,.muluploadbox_done .tip{
+    font-size:12px;
+    color:#999;
+    line-height:46px;
+    position:absolute;
+    left:180px;
+    display:block;
+    height:46px;
+    top:40px;
+}
+.muluploadbox_done .tip{
+    left:130px;
+    top:0px;
+}
+.uploadbox{
+    clear:both;
+}
+.uploadbox{
+    padding:30px 50px 50px;
+    padding-right:0px;
+    width:940px;
+    position:relative;
+}
+.stepitem{
+    height:180px;
+    margin-bottom:40px;
+    position:relative;
+}
+/*步骤数字*/
+.stepnum{
+    height:180px;
+    width:100px;
+    font-size:60px;
+    color:#aaa;
+    font-family:Arial, Helvetica, sans-serif;
+    display:inline-block;
+    vertical-align:top;
+    line-height:180px;
+}
+.stepupload{
+    height:180px;
+    width:180px;
+    display:inline-block;
+    vertical-align:top;
+}
+.stepright{
+    height:180px;
+    width:660px;
+    margin-left:30px;
+    display:inline-block;
+    vertical-align:top;
+    position: absolute;
+    float:left;
+    top: 10px;
+
+}
+.stepright input{
+    height:156px;
+    padding:14px;
+    border:1px solid #ddd;
+    width: 529px;
+    color:#333;
+    margin-top:0px;
+    overflow:auto;
+}
+.step_rightbtns{
+    position:absolute;
+    height:126px;
+    width:28px;
+    right:18px;
+    top:31px;
+}
+textarea{
+    line-height:24px;
+    resize: none;
+}
+/*增加一步*/
+.addstep_item{
+    height:60px;
+    padding-left:100px;
+}
+.addstep_btn{
+    height:60px;
+    background:#eaeaea;
+    color:#666;
+    font-size:14px;
+    line-height:60px;
+    display:inline-block;
+    vertical-aling:top;
+    width:180px;
+    text-align:center;
+}
+.addstep_btn:hover{
+    background:#ff3232;
+    color:#fff;
+    font-family:微软雅黑;
+}
+a:hover{
+    text-decoration: none;
+}
+.muluploadbox_done{
+    width:940px;
+    padding:0px;
+    position:relative;
+}
+/*保存为草稿，提高，提交审稿*/
+.uploadsubmit_item{
+    height:70px;
+    margin:50px auto;
+}
+.uploadsubmit_item input{
+    height:70px;
+    width:220px;
+    background:#ff3232;
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+    border:1px solid #e90808;
+}
+.uploadsubmit_item input:hover{
+    background:#e90808;
+    cursor:pointer;
+}
+.selectitem dl dd span.hover, .selectitem dl dd span.current {
+    background: #ff3232;
+    color: #fff;
+    pointer:cursor;
+}
+.selectitem dl dd span.hover, .selectitem dl dd span.current {
+    background: #ff3232;
+    color: #fff;
+
+}
+#upload_top_img {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height: 400px;
+    width: 300px;
+}
+.file {
+    height: 400px;
+    filter: alpha(opacity:0);
+    opacity: 0;
+    width: 300px;
+    cursor: pointer;
+    font-size: 400px;
+    z-index: 200;
+}
+#clickToUpload {
+    position: relative;
+    z-index: 100;
+    width: 300px;
+}
+img#clickToUpload {
+    width: 300px;
+    height: 400px;
+}
+input#upload_top_img1, input#upload_top_img2,input#upload_top_img3,input#upload_top_img4{
+    width: 180px;
+    height: 180px;
+}
+img#clickToUpload1,img#clickToUpload2,img#clickToUpload3,img#clickToUpload4 {
+    width: 180px;
+    height: 180px;
+}
+.file1{
+	position:absolute;
+	top:470px;
+	opacity: 0;
+width: 300px;
+cursor: pointer;
+font-size: 400px;
+z-index: 200;
+}
+
+.uploadsubmit_item button {
+    height: 70px;
+    width: 220px;
+    background: #ff3232;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #e90808;
+}
+
+.addTipsBtn{display:block;height:40px;line-height:40px;background:#eee;color:#333;text-align:center;width:150px;}
+.tipsFormW{width:600px;height:200px;padding-top:10px;position:relative;}
+.tipsFormW .left{width:180px;height:180px;float:left;background:#eee;}
+.tipsFormW .right{height:200px;width:390px;float:right;}
+.tipsFormW .right .text{height:40px;border:1px solid #ddd;line-height:40px;width:368px;padding:0px 10px;}
+.tipsFormW .right textarea{height:126px;border:1px solid #ddd;width:368px;margin-top:10px;padding:10px;}
+.tipsFormW .x{position:absolute;height:24px;width:24px;background:#ff5151;color:#fff;text-align:center;line-height:24px;right:-24px;top:10px;cursor:pointer;}

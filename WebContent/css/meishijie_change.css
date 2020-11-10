@@ -1,0 +1,195 @@
+/*中间内容部分*/
+.main_w {
+    width: 100%;
+    position: relative;
+    z-index: 500;
+}
+.main {
+    width: 990px;
+    margin: 0px auto;
+}
+.bbtitles {
+    height: 120px;
+    line-height: 120px;
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+    font-family: Microsoft Yahei;
+    position: relative;
+    display: block;
+}
+.user_main {
+    width: 990px;
+    margin: 0px auto 20px;
+    background: #fafafa;
+}
+.user_inner_tab {
+    height: 68px;
+    width: 990px;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid
+    #eee;
+    z-index: 100;
+}
+.user_backbtn1 {
+    display: block;
+    height: 68px;
+    width: 68px;
+    float: left;
+    border-right: 1px solid #eee;
+    background: #fff url("https://s2.ax1x.com/2019/12/11/Qs6wPH.gif") 0px 0px no-repeat;
+}
+.user_inner_tab_ul {
+    padding: 14px 20px;
+    float: left;
+}
+.user_inner_tab_ul li {
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+    color: #333;
+    float: left;
+    text-decoration:none;
+}
+.user_inner_tab_ul li a.link {
+    display: block;
+    color: #333;
+    padding: 0px 14px;
+    margin-right: 10px;
+    border-radius: 4px;
+    text-decoration:none;
+}
+
+.current_li{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 14px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background: #ff3232;
+    color: #fff;
+}
+.sixin_list {
+    background: #fff;
+    width: 990px;
+    float: left;
+}
+.sixin_list_w {
+    background: #fff;
+}
+.useredit_w {
+    width: 990px;
+    background: #fafafa;
+    padding-left: 68px;
+    height: 525px;
+}
+.useredit_ul {
+    padding: 20px 0px 40px;
+}
+.useredit_ul li {
+    float: left;
+    margin: 5px auto;
+    text-decoration:none;
+    list-style-type: none;
+}
+.useredit_ul dl dt {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    width: 100px;
+    float: left;
+    color: #666;
+    font-size: 14px;
+    padding-right: 5px;
+}
+.useredit_ul dl dd.dd1 {
+    float: left;
+    width: 330px;
+    float: left;
+}
+.useredit_ul dl dd.dd2 {
+    float: left;
+    width: 300px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+}
+.useredit_ul dl dd.dd1 img.useravatar {
+    display: block;
+    height: 160px;
+    width: 160px;
+}
+.useredit_ul dl dd.dd2 span.tip {
+    line-height: 40px;
+    padding-left: 10px;
+    color: #999;
+}
+.useredit_ul dl dd.dd1 .submit {
+    height: 38px;
+    width: 80px;
+    border: 1px solid #E90808;
+    background: #ff3232;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+}
+#upload_big_img {
+    height: 160px;
+    width: 160px;
+    overflow: hidden;
+    position: relative;
+}
+#clickToUpload {
+    position: relative;
+    z-index: 100;
+    width: 160px;
+}
+#uploading {
+    z-index: 50;
+}
+.uploading {
+    height: 160px;
+    width: 160px;
+    line-height: 160px;
+    display: block;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #f5f5f5;
+}
+#upload_top_img {
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height: 400px;
+    width: 300px;
+}
+.file {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 160px;
+    filter: alpha(opacity:0);
+    opacity: 0;
+    width: 160px;
+    cursor: pointer;
+    font-size: 160px;
+    z-index: 200;
+}
+
+.useredit_ul dl dd.dd1 input.text {
+    height: 41px;
+    padding: 9px;
+    border: 1px solid #ddd;
+    width: 310px;
+    font-size: 14px;
+    color: #999;
+}

@@ -1,0 +1,516 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*头部*/
+.firstHeader{
+    height:130px;
+    width:100%;
+    background-color:#c90000;
+}
+ .top_search input.text{
+     width:326px;
+     height:40px;
+     padding:8px;
+     margin-left:450px;
+     margin-top:46px;
+     overflow:hidden;
+     border:2px solid #fff;
+     border-top-left-radius:5px;
+     border-bottom-left-radius: 5px;
+ }
+ .top_search input.input_submit{
+     height:40px;
+     width:80px;
+     position:absolute;
+     top:46px;
+     border:2px solid #fff;
+     background:#a8000f;
+     font-size:14px;
+     color:#fff;
+     border-top-right-radius:5px;
+     border-bottom-right-radius: 5px;
+     text-align:center;
+ }
+#logo{
+    position:absolute;
+    top:10px;
+    left:170px;
+}
+#left_log{
+    position:absolute;
+    /*left:250px;*/
+    top:0;
+}
+img #left_log {
+    height:150px;
+}
+
+/*第一个导航栏*/
+.firstNavigation ul{
+    height:70px;
+    width:990px;
+    margin:0px auto;
+    z-index:1;
+
+}
+.firstNavigation ul li{
+    float:left;
+    list-style:none;
+    font-family:"Microsoft Yahei,黑体";
+    font-size:20px;
+    padding:20px 20px;
+    font-weight:700;
+    list-style:none;
+    /*line-height:40px;*/
+    display:inline-block;
+
+}
+li.active{
+    border-bottom:4px solid #ff3232;
+
+}
+li:hover{
+    background-color:#fafafa;
+}
+#main_nav a{
+    text-decoration: none;
+    color:black;!important;
+}
+
+.login_style a.qq_login {
+    padding-left: 34px;
+    background: url(https://s2.ax1x.com/2019/09/29/u8DTfI.gif) 3px 0px no-repeat;
+}
+
+/*在菜谱大全与健康饮食后添加图*/
+.hasmore:after{
+    content:url(https://s2.ax1x.com/2019/09/20/nO6hM6.gif);
+    width:50px;
+    padding-left:6px;
+
+}
+
+/*菜谱大全展开更多*/
+.cookbook,.health_diet{
+    margin:0px auto;
+    width:1000px;
+    height:300px;
+    background-color:#fafafa;
+    position:absolute;
+    top:195px;
+    left:200px;
+    display:none;
+}
+.cookbook dt,.health_diet dt{
+    padding-left:15px;
+    color:#ff3232;
+    font-size:18px;
+}
+.cookbook dd,.health_diet dd{
+    display:inline-block;
+    padding-left:15px;
+    color:#aeaeae;
+    font-size:12px;
+
+}
+
+.cookbook_left{
+    float:left;
+    width:500px;
+
+}
+.cookbook_right{
+    float:right;
+    width:500px;
+
+}
+dd:hover{
+
+    color:#ff3232;
+}
+
+/*菜谱大全展开后第一个dl（家常菜谱）*/
+.cookbook_first{
+    padding-top:10px;
+}
+
+
+
+/*第一部分图片展示*/
+.index_first_content{
+    height: 2250px;
+    width:100%;
+    background:rgba(250,232,200,0.7);
+    z-index:-100;
+}
+.index_item{
+    height:450px;
+    width:5000px;
+    position:absolute;
+
+}
+.index_main_item1 ul,.index_main_item1 ul,.index_main_item3 ul{
+    width:990px;
+    height:330px;
+    margin-top:120px;
+    margin-left:195px;
+
+}
+.index_main_item1 ul li,.index_main_item2 ul li,.index_main_item3 ul li{
+    float:left;
+    list-style-type:none;
+
+}
+.index_main_item2,.index_main_item3{
+    display:none;
+}
+.index_tab_time{
+    border-top:4px solid #aeaeae;
+    width:990px;
+    height:52px;
+    background:#ffffff url("https://s2.ax1x.com/2019/09/20/nO66IJ.gif");
+    margin-left:195px;
+    margin-top:-10px;
+}
+.pngFix {
+    background:url("https://s2.ax1x.com/2019/09/19/nLXDGq.png");
+    width:330px;
+    position:absolute;
+    top:372px;
+    height:78px;
+}
+
+
+.third_title,.four_title{
+    height:120px;
+    line-height:120px;
+    color:#222;
+    text-align:center;
+    font-family:"微软雅黑";
+    padding-left:220px;
+    position:relative;
+    display:block;
+}
+.four_title{
+    padding-left:0px;
+}
+
+.more_food,.more_menu{
+    font-family:宋体;
+    font-size:12px;
+    float:right;
+    /*padding-right: 50px;*/
+}
+.more_menu{
+    padding-right:5px;
+    padding-top:-10px;
+}
+/*第三部分图片展示*/
+.index_th_part{
+    width:990px;
+    background:#fff;
+    height:193px;
+    position:relative;
+    margin-left:200px;
+}
+
+.index_th_w ul li{
+    list-style-type: none;
+    float:left;
+    margin-left:20px;
+    margin-top:15px;
+    padding:5px 10px;
+    /*line-height: 10px;*/
+    font-size:16px;
+    font-family:"微软雅黑";
+    color:#666;
+    font-weight: 700;
+    display:block;
+}
+.index_th_p img,.index_th_p1 img{
+    display:block;
+    height:117px;
+    width:117px;
+}
+.index_th_p,.index_th_p1{
+    height:117px;
+
+}
+.index_th_p ul,.index_th_p1 ul{
+    position:absolute;
+    left:18px;
+    top:53px;
+}
+.index_th_p ul li,.index_th_p1 ul li{
+    list-style-type: none;
+    float:left;
+    margin-left:2px;
+
+}
+.index_th_p1{
+    /*border-bottom:solid 2px red;*/
+    display:none;
+}
+
+.pc_w{
+    background:url("https://s2.ax1x.com/2019/09/19/nLXBin.png");
+    width:120px;
+    position:absolute;
+    top:100px;
+
+}
+.pc_w span{
+    padding-left:40px;
+
+    /*font-size:10px;*/
+}
+.c_active{
+    background-color:red;
+
+}
+
+.index_four_part {
+    width: 990px;
+    /*margig:0 auto;*/
+    margin-left:199px;
+}
+
+.title{
+    align:center;
+
+}
+
+.out1 ul,.out2 ul{
+    width:990px;
+    margin:0 auto;
+    display:block;
+
+
+}
+.item1  li{
+    float:left;
+    display:block;
+    margin:0 auto;
+    padding-left:15px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.background1{
+    background-color:#ffffff;
+    height:332px;
+    width:232px;
+}
+.background1 img {
+    width: 232px;
+    height: 232px;
+}
+
+
+
+/*更改bootstrap样式*/
+#carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+
+.glyphicon-chevron-right{
+    float:right;
+    margin-right:-70px;
+    margin-top:-380px;
+    position:relative;
+
+}
+.glyphicon-chevron-left{
+    float:left;
+    margin-left:-70px;
+    margin-top:-380px;
+    position:relative;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size:50px;
+    color:#fff;
+}
+
+.glyphicon-chevron-right:before {
+    content: "\e080";
+}
+.news{
+    width:990px;
+    margin:0 auto;
+}
+.news_item1,.news_item2,.news_item3{
+    background:#ffff;
+    width:485px;
+    float:left;
+    height:160px;
+    margin-left:100px;
+    margin-bottom:20px;
+    /*float:left;*/
+    overflow:hidden;
+}
+.news_item2,.news_item3{
+
+    float:right;
+    margin-right:-100px;
+    margin-top:-360px;
+
+}
+.news_item3{
+    margin-top:-180px;
+}
+.news_img{
+    display:block;
+    height:160px;
+    width:160px;
+}
+
+.news_item1 ul li ,.news_item2 ul li,.news_item3 ul li{
+    float:left;
+    list-style-type: none;
+    border-bottom:1px solid #aeaeae;
+    /*width:100px;*/
+    /*width:60%;*/
+    display:block;
+    margin-right:5px;
+    margin-bottom:31px;
+   /*padding-right:10px;*/
+    /*box-sizing: border-box;*/
+    display:inline-block;
+    /*width:300px;*/
+
+
+}
+/*.news_item1 ul li:not(:first-child){*/
+    /*padding:0 10px;*/
+/*}*/
+.tail{
+    width:100%;
+    background:url("https://s2.ax1x.com/2019/09/19/nLXE26.png") repeat;
+    height:500px;
+
+}
+.tail_log{
+    height:196px;
+    width:600px;
+    background:url("https://s2.ax1x.com/2019/09/19/nOBbwj.png") no-repeat left center;
+    background-size:70% auto;
+    margin-left:150px;
+}
+.linkfooter{
+    float:right;
+    margin-right:190px;
+    margin-top:-160px;
+}
+.linkfooter ul li{
+    /*position:relative;*/
+    display:inline-block;
+    vertical-align:top;
+    background:url("https://s2.ax1x.com/2019/09/19/nLX3Gt.png") no-repeat;
+    width: 105px;
+    margin-left: 20px;
+    height: 160px;
+}
+.linkfooter ul li span{
+    height:26px;
+    line-height:26px;
+    display:block;
+    width:105px;
+    color:#fff;
+    text-align:center;
+    padding-top:79px;
+}
+.linkfooter li.sina{
+    background-position:0px 0px;
+}
+.linkfooter li.tencent{
+    background-position:-105px 0px;
+}
+.linkfooter li.wechat{
+    background-position:-315px 0px;
+}
+.linkfooter li.phoneclient{
+    background-position:-210px 0px;
+}
+.linkfooter ul li p{
+    color:#999;
+    font-size:12px;
+    height:36px;
+    padding:9px 0px;
+    text-align:center;
+    margin-top:20px;
+    line-height: 18px;
+
+}
+
+.friend_link {
+    font-size:14px;
+    color:#fff;
+    display:block;
+    line-height:40px;
+    margin-bottom:20px;
+    height:40px;
+    float:left;
+    width:990px;
+    margin-left:170px;
+}
+.friend_link dl dt{
+    margin-bottom:20px;
+}
+.friend_link dl dd{
+    float:left;
+    height:25px;
+    color:#aeaeae;
+    width:99px;
+}
+.friend_link dl dd:hover{
+    color:#ff3232;
+}
+.footer_lcon{
+    width:990px;
+    margin-left:170px;
+    text-align:center;
+    padding:10px 0px 30px 0px;
+    margin-top:100px;
+}
+.footer_lcon ul {
+    list-style-type: none;
+    margin-left:170px;
+    margin-top:20px;
+}
+.footer_lcon ul li{
+    float:left;
+    color:#aeaeae;
+    margin-left:20px;
+    margin-top:20px;
+}
+.footer_lcon ul li:hover{
+    background-color:#ff3232;
+    color:#fff;
+}
+.footer_lcon p{
+    color:#666;
+    height: 24px;
+    line-height: 24px;
+    margin-top:80px;
+}

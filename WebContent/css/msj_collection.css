@@ -1,0 +1,340 @@
+.main {
+    width: 990px;
+    margin: 0px auto;
+}
+.bbtitles {
+    height: 120px;
+    line-height: 120px;
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+    font-family: Microsoft Yahei;
+    position: relative;
+    display: block;
+}
+.userheader {
+    height: 210px;
+    margin: 0px auto 20px;
+    width: 990px;
+    background:#fff;
+}
+.userheader .avatar_w {
+    height: 210px;
+    width: 210px;
+    float: left;
+}
+.userheader .avatar_w img {
+    display: block;
+    height: 210px;
+    width: 210px;
+}
+.userh_main {
+    float: left;
+    width: 570px;
+    height: 210px;
+}
+.userh_main div.info1 {
+    height: 105px;
+    border-bottom: 1px solid
+    #eee;
+    margin: 0px 20px;
+    width: 530px;
+    position: relative;
+}
+.userh_main div.info1 h1 {
+    font-size: 24px;
+    color: #333;
+    line-height: 44px;
+    font-family: Microsoft Yahei;
+    padding-top: 14px;
+}
+.userh_main div.info1 span.info {
+    line-height: 22px;
+    color:#999;
+}
+.userh_main div.info1 span.info em {
+    padding: 0px 4px;
+}
+.user_nav {
+    height: 50px;
+    width: 990px;
+    margin: 0px auto 20px;
+}
+.user_nav ul li {
+    display: inline-block;
+    vertical-align: top;
+
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    color:  #333;
+    list-style-type: none;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+.user_nav ul li a {
+    color:
+            #333;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    padding: 0px 0px;
+    text-align: center;
+    margin: 0px 20px;
+}
+.user_main {
+    width: 990px;
+    margin: 0px auto 20px;
+    background: #fafafa;
+}
+.user_inner_tab_ul li {
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+    color: #333;
+    float: left;
+}
+.user_inner_tab_ul li a.current {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 14px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background: #ff3232;
+    color: #fff;
+}
+
+.user_inner_tab {
+    height: 68px;
+    width: 990px;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    z-index: 100;
+}
+.user_inner_tab_ul {
+    padding: 14px 20px;
+    float: left;
+}
+.usc_w {
+    background: #fafafa;
+}
+.usc_w {
+    background: #fafafa;
+}
+.listtyle3_list1 {
+    width: 744px;
+
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-bottom: 4px;
+    background: #fff;
+}
+.fliterstyle11 {
+    padding-top: 0px;
+    float: left;
+    width: 232px;
+    _overflow: hidden;
+}
+.fliterstyle11 .fliterstyle1_main {
+    width: 232px;
+    margin-bottom: 20px;
+}
+.fliterstyle1_main {
+    width: 232px;
+    background:
+            #fff;
+    margin-bottom: 20px;
+}
+body .ml0 {
+    margin-left: 0px;
+}
+.listtyle3_332 {
+    height: 332px;
+}
+listtyle3 {
+    margin-left: 17px;
+    background: #fff;
+    height: 360px;
+    width: 232px;
+    position: relative;
+    float: left;
+    margin-bottom: 17px;
+    _display: inline;
+}
+.listtyle3 div.img {
+    position: relative;
+    height: 232px;
+    width: 232px;
+}
+.listtyle3 .info2 {
+    position: absolute;
+    height: 232px;
+    width: 232px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+.listtyle3 .info2 a.img {
+    display: block;
+    height: 232px;
+    width: 232px;
+
+}
+.listtyle3 .info2_c {
+    display: block;
+    height: 232px;
+    width: 232px;
+    background: url("https://s2.ax1x.com/2019/09/19/nLXE26.png6") 0px 0px repeat;
+    position: absolute;
+    left: 232px;
+    top: 0px;
+    overflow: hidden;
+}
+.listtyle3 div.info3 {
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.listtyle3 div.info3 h3 {
+    margin-top: 10px;
+    height: 28px;
+    line-height: 28px;
+    text-indent: 14px;
+}
+.listtyle3 div.info3 h3 a {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+.listtyle3 div.info3 div.d1 {
+    height: 24px;
+    line-height: 24px;
+    padding-left: 14px;
+}
+.listtyle3 div.info3 div.d1 span {
+    color:#999;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.listtyle3 div.info3 div.d1 span {
+    color: #999;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.listtyle3 div.info3 .delete {
+    position: absolute;
+    right: 0px;
+    bottom: 13px;
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    color:#999;
+    cursor: pointer;
+}
+.listtyle3 div.img {
+    position: relative;
+    height: 232px;
+    width: 232px;
+}
+.listtyle3 div.img a.img {
+    display: block;
+    height: 232px;
+    width: 232px;
+}
+.listtyle3 div.img img.cpimg {
+    display: block;
+    height: 232px;
+    width: 232px;
+}
+.listtyle3_332 {
+    height: 332px;
+}
+.listtyle3 {
+    margin-left: 17px;
+    background: #fff;
+    height: 360px;
+    width: 232px;
+    position: relative;
+    float: left;
+    margin-bottom: 17px;
+    _display: inline;
+}
+.listtyle3 div.info3 div.d1 {
+    height: 24px;
+    line-height: 24px;
+    padding-left: 14px;
+}
+.listtyle3 .info2 .gx2 {
+    z-index: 100;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    height: 32px;
+    position: absolute;
+    right: -6px;
+    top: 12px;
+    background:#60a531;
+    box-shadow: 0px 1px 1px
+    rgba(0,0,0,0.5);
+    line-height: 32px;
+    color:  #fff;
+    font-size: 14px;
+}
+.listtyle3 div.img .gx span {
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    height: 32px;
+    padding: 0px 12px;
+    background:   #60a531;
+    line-height: 32px;
+    color: #fff;
+    box-shadow: 0px 1px 1px
+    rgba(0,0,0,0.5);
+    font-size: 14px;
+}
+.listtyle3 .info2 .gx2 span {
+    padding: 0px 12px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.listtyle3 .info2 a.link_cp {
+    display: block;
+    height: 232px;
+    width: 232px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: url("https://s2.ax1x.com/2019/09/19/nLXE26.png") 0px 0px repeat;
+}
+.listtyle3 div.img .gx {
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
+    height: 38px;
+    position: absolute;
+    right: -6px;
+    top: 12px;
+    background: url("https://s2.ax1x.com/2019/12/11/QsOQij.png") right 32px no-repeat;
+}
+.listtyle3 div.info3 a.author {
+    line-height: 24px;
+    color:#ff3232;
+    padding-left: 14px;
+}

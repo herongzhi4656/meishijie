@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background:#fae8c8;
+}
+
+.firstHeader {
+    height: 130px;
+    width: 100%;
+    background-color: #c90000;
+}
+
+.top_search input.text {
+    width: 326px;
+    height: 40px;
+    padding: 8px;
+    margin-left: 450px;
+    margin-top: 46px;
+    overflow: hidden;
+    border: 2px solid #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+}
+
+.top_search input.input_submit {
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 46px;
+    border: 2px solid #fff;
+    background: #a8000f;
+    font-size: 14px;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+}
+
+
+.login_style,.login_style1 {
+    height: 129px;
+    float: right;
+    margin-right: 200px;
+    margin-top: -30px;
+    display: inline-block;
+
+}
+
+.login_style a.link {
+    display: block;
+    height: 28px;
+    color: white;
+    font-size: 12px;
+    line-height: 28px;
+    float: right;
+    padding: 0 10px;
+
+}
+
+.login_style a.qq_login {
+    padding-left: 34px;
+    background: url(https://s2.ax1x.com/2019/09/29/u8DTfI.gif) 3px 0px no-repeat;
+
+}
+
+.login_style a.weibo_login {
+    padding-left: 34px;
+    background: url(https://s2.ax1x.com/2019/09/29/u8DTfI.gif) 3px -28px no-repeat;
+
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 170px;
+}
+
+#left_log {
+    position: absolute;
+    /*left:250px;*/
+    top: 0;
+}
+
+img #left_log {
+    height: 150px;
+}
+
+/*第一个导航栏*/
+.firstNavigation {
+    background: white;
+    width: 100%;
+    left: 0;
+    height: 70px;
+}
+
+.firstNavigation ul {
+    height: 70px;
+    width: 990px;
+    background: white;
+    position: absolute;
+    left: 190px;
+    z-index: 2000;
+}
+
+.firstNavigation ul li {
+    float: left;
+    list-style: none;
+    font-family: "Microsoft Yahei,黑体";
+    font-size: 20px;
+    padding: 20px 20px;
+    font-weight: 700;
+    list-style: none;
+    /*line-height:40px;*/
+    display: inline-block;
+
+}
+
+.firstNavigation ul li.active {
+    border-bottom: 4px solid #ff3232;
+
+}
+
+.firstNavigation ul li:hover {
+    background-color: #fafafa;
+}
+
+#main_nav a {
+    text-decoration: none;
+    color: black;
+!important;
+}
+
+/*在菜谱大全与健康饮食后添加图*/
+.fa-angle-down {
+    display: none;
+}
+
+
+/*菜谱大全展开更多*/
+.cookbook, .health_diet {
+    margin: 0px auto;
+    width: 1000px;
+    height: 300px;
+    background-color: #fafafa;
+    position: absolute;
+    top: 68px;
+    left: 80px;
+    display: none;
+}
+
+.cookbook dt, .health_diet dt {
+    padding-left: 15px;
+    color: #ff3232;
+    font-size: 18px;
+}
+
+.cookbook dd, .health_diet dd {
+    display: inline-block;
+    padding-left: 15px;
+    color: #aeaeae;
+    font-size: 12px;
+
+}
+
+.cookbook_left {
+    float: left;
+    width: 500px;
+
+}
+
+.cookbook_right {
+    float: right;
+    width: 500px;
+
+}
+
+dd:hover {
+
+    color: #ff3232;
+}
+
+/*菜谱大全展开后第一个dl（家常菜谱）*/
+.cookbook_first {
+    padding-top: 10px;
+}
+
+/*尾部效果*/
+.tail {
+    width: 100%;
+    background: url("https://s2.ax1x.com/2019/09/19/nLXE26.png") repeat;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.tail_log {
+    height: 196px;
+    width: 600px;
+    background: url("https://s2.ax1x.com/2019/09/19/nOBbwj.png") no-repeat left center;
+    background-size: 70% auto;
+    margin-left: 150px;
+}
+
+.linkfooter {
+    float: right;
+    margin-right: 190px;
+    margin-top: -160px;
+}
+
+.linkfooter ul li {
+    /*position:relative;*/
+    display: inline-block;
+    vertical-align: top;
+    background: url("https://s2.ax1x.com/2019/09/19/nLX3Gt.png") no-repeat;
+    width: 105px;
+    margin-left: 20px;
+    height: 160px;
+}
+
+.linkfooter ul li span {
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    width: 105px;
+    color: #fff;
+    text-align: center;
+    padding-top: 79px;
+}
+
+.linkfooter li.sina {
+    background-position: 0px 0px;
+}
+
+.linkfooter li.tencent {
+    background-position: -105px 0px;
+}
+
+.linkfooter li.wechat {
+    background-position: -315px 0px;
+}
+
+.linkfooter li.phoneclient {
+    background-position: -210px 0px;
+}
+
+.linkfooter ul li p {
+    color: #999;
+    font-size: 12px;
+    height: 36px;
+    padding: 9px 0px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 18px;
+
+}
+
+.friend_link {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    line-height: 40px;
+    margin-bottom: 20px;
+    height: 40px;
+    float: left;
+    width: 990px;
+    margin-left: 170px;
+}
+
+.friend_link dl dt {
+    margin-bottom: 20px;
+}
+
+.friend_link dl dd {
+    float: left;
+    height: 25px;
+    color: #aeaeae;
+    width: 99px;
+}
+
+.friend_link dl dd:hover {
+    color: #ff3232;
+}
+
+.footer_lcon {
+    width: 990px;
+    margin-left: 170px;
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+    margin-top: 100px;
+}
+
+.footer_lcon ul {
+    list-style-type: none;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+.footer_lcon ul li {
+    float: left;
+    color: #aeaeae;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer_lcon ul li:hover {
+    background-color: #ff3232;
+    color: #fff;
+}
+
+.footer_lcon p {
+    color: #666;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 80px;
+}

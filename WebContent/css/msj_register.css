@@ -1,0 +1,407 @@
+/*第一部分图片展示*/
+.index_first_content {
+    height: 2250px;
+    width: 100%;
+    background: rgba(250, 232, 200, 0.7);
+    z-index: -100;
+}
+
+.index_item {
+    height: 450px;
+    position: absolute;
+
+}
+
+.index_main_item1 ul {
+    width: 990px;
+    height: 330px;
+    margin-top: 120px;
+    margin-left: 195px;
+
+}
+
+.index_main_item1 ul li {
+    float: left;
+    list-style-type: none;
+
+}
+
+
+.more_food, .more_menu {
+    font-family: 宋体;
+    font-size: 12px;
+    float: right;
+    padding-right: 164px;
+    /*padding-right: 50px;*/
+}
+
+.more_menu {
+    padding-right: 5px;
+    padding-top: -10px;
+}
+
+
+.index_th_p img, .index_th_p1 img, .index_th_p2 img {
+    display: block;
+    height: 117px;
+    width: 117px;
+}
+
+.index_th_p, .index_th_p1, .index_th_p2 {
+    height: 117px;
+
+}
+
+.index_th_p ul, .index_th_p1 ul, .index_th_p2 ul {
+    position: absolute;
+    left: 18px;
+    top: 53px;
+}
+
+.index_th_p ul li, .index_th_p1 ul li, .index_th_p2 ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 2px;
+
+}
+
+
+
+.pc_w span {
+    padding-left: 40px;
+
+    /*font-size:10px;*/
+}
+
+.c_active {
+    background-color: red;
+    cursor: pointer;
+
+}
+
+
+
+
+.item1 li {
+    float: left;
+    display: block;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/*中间内容*/
+.content_area{
+    width:1000px;
+    background:white;
+    /*height:778px;*/
+    margin:40px auto 40px;
+    padding:1px 0px 60px;
+}
+.n1_title{
+    height:43px;
+    line-height:42px;
+    font-size:22px;
+    color:#333;
+    text-align:center;
+    margin:40px auto;
+}
+.n1_title .n1_t_left,.n1_title .n1_t_right{
+    display:inline-block;
+    vertical-align:top;
+    width:91px;
+    height:9px;
+    margin-top:17px;
+    background:url("https://s2.ax1x.com/2019/10/17/KkwE2d.png") center no-repeat;
+    margin-right:20px;
+}
+.n1_title .n1_t_right{
+    margin-left:20px;
+    background:url("https://s2.ax1x.com/2019/10/17/KkwA8H.png");
+}
+.n1_dws_w{
+    text-align:center;
+}
+.n1_dws_w1{
+    text-align:center;
+}
+.n1_dws_w1 .a1{
+    color:#8fc31f;
+}
+.n1_dws_w1 a{
+    display:inline-block;
+    vertical-align:top;
+    width:108px;
+    margin:0 25px;
+    line-height:44px;
+    font-size:15px;
+}
+.n1_dws_w1 .a1 span{
+    background-position:0px 0px;
+}
+.n1_dws_w1  .a2 span  {
+    background-position:-108px 0px;
+}
+.n1_dws_w1 a span{
+    display:block;
+    height:108px;
+    width:108px;
+    background:url("https://s2.ax1x.com/2019/10/17/Kkw82j.png") no-repeat;
+}
+.n1_dws_w1 .a2{
+    color:#7ecef4;
+}
+.n1_dws_w1 .a3{
+    color:#fd4e5d;
+}
+.n1_dws_w1 a.a3 span{
+    background-position:-216px 0px;
+}
+.n1_dws_w1 .a1 span:hover{
+    background-position:0px -108px;
+}
+.n1_dws_w1 .a2 span:hover{
+    background-position:-108px -108px;
+}
+.n1_dws_w1 .a3 span:hover{
+    background-position:-216px -108px;
+}
+.go_link{
+    color:#333;
+    font-sze:15px;
+    display:block;
+    margin-top:40px;
+    text-align:center;
+    height:30px;
+}
+a.go_link{
+    color:#333;
+    text-decoration:none;
+}
+a.go_link:visited{
+    color:#333;
+}
+a.go_link:hover{
+    color:red;
+}
+/*.go_link:focus{*/
+/*color:#333;*/
+/*}*/
+
+.n1_moredsf{
+    width:60%;
+    text-align:center;
+    background:#f5f5f5;
+    height:100px;
+    border:1px solid #eee;
+    margin:0px auto;
+    border-radius:4px;
+}
+.n1_moredsf a{
+    display:inline-block;
+    vertical-align:top;
+    height:16px;
+    margin-top:42px;
+    line-height:16px;
+    padding:0px 20px;
+    color:#333;
+    background:url("https://s2.ax1x.com/2019/10/28/KceMyF.png") no-repeat;
+}
+.n1_moredsf .a1{
+    background-position:0px 0px;
+}
+.n1_moredsf .a2{
+    background-position:0px -16px;
+}
+.n1_moredsf .a3{
+    background-position:0px -32px;
+}
+.n1_moredsf .a4{
+    background-position:0px -48px;
+}
+
+.n1_or{
+    height:69px;
+    text-align:center;
+    width:100%;
+    background:url("https://s2.ax1x.com/2019/10/28/KcKipq.png") center no-repeat;
+}
+/*登陆设置*/
+.n1_loginbox_w{
+    width:320px;
+    margin:24px auto 0px;
+    overflow:hidden;
+    text-align:left;
+}
+.n1_loginitem{
+    height:44px;
+    width:320px;
+    margin-bottom:14px;
+}
+.n1_loginitem .text,.n1_loginitem .password{
+    height:42px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    line-heigh:22px;
+    font-size:14px;
+    color:#333;
+    padding:11px;
+    width:296px;
+    font-family:"微软雅黑";
+    outline:none;
+}
+.n1_loginitem label{
+    color:#666;
+    font-size:13px;
+    line-height:22px;
+}
+.n1_loginitem label input{
+    margin-top:-2px;
+    position:relative;
+}
+.n1_loginitem .forgetpassword{
+    float:right;
+    display:block;
+    line-height:22px;
+    color:#999;
+    font-size:13px;
+}
+.n1_loginitem .submit{
+    display:inline-block;
+    vertical-align:top;
+    height:42px;
+    border:1px solid #db432e;
+    border-radius:4px;
+    line-height:40px;
+    color:#fff;
+    padding:0px 24px;
+    font-family:"微软雅黑";
+    background:#ec5541;
+    cursor:pointer;
+}
+.n1_loginitem .submit:hover{
+    background:#db432e;
+}
+span.next_auto{
+    padding-left:18px;
+    top: -15px;
+    position: relative;
+}
+.n1_more_zc{
+    width:60%;
+    text-align:center;
+    background:#f5f5f5;
+    border:1px solid #eee;
+    margin:0 auto;
+    border-radius:4px;
+    padding-bottom:20px;
+}
+.n1_table{
+    height:32px;
+    line-height:32px;
+    margin:32px auto 0px;
+    text-align:center;
+    color:#ddd;
+}
+.n1_table a.current{
+    font-weight:bold;
+    color:#333;
+    text-decoration:none;
+}
+.n1_table a{
+    font-size:18px;
+    color:#999;
+}
+.n1_loginbox_www{
+    width:320px;
+    overflow:hidden;
+    margin:0px auto 0px;
+}
+.n1_loginbox_ww{
+    width:640px;
+    margin-left:0px;
+}
+.n1_loginbox_w{
+    width:320px;
+    margin:24px auto 0px;
+    overflow:hidden;
+    text-align:left;
+}
+.login_tips.true{
+    background-position:0px 24px;
+    color:#8fc31f;
+}
+.login_tips{
+    height:24px;
+    line-height:24px;
+    font-size:13px;
+    margin-top:-10px;
+    marin-bottom:10px;
+    background:url("https://s2.ax1x.com/2019/10/28/KgnYX8.png") no-repeat;
+}
+.phone_yzmbtn{
+    width:134px;
+    height:43px;
+    float:right;
+    margin-right: 24px;
+    background:#8fc31f;
+    border:1px solid #75ab49;
+    display:block;
+    color:#fff;
+    line-height:43px;
+    border-radius:4px;
+    font-size:15px;
+    text-align:center;
+}
+.login_tips.false{
+    background-position:0px -48px;
+    color:#ec5541;
+}
+.login_tips.tip{
+    background-position:0px 0px;
+    color:#7ecef4;
+}
+.login_pw_tips.state1{
+    background-position:0px -0px;
+    color:#ec5541;
+}
+.login_pw_tips{
+    height:24px;
+    line-height:24px;
+    font-size:13px;
+    margin-top:-10px;
+    margin-bottom:10px;
+    background:url("https://s2.ax1x.com/2019/10/28/KgMEpn.png") no-repeat;
+    padding-left:80px;
+}
+.n1_loginitem label a{
+    color:#ec5541;
+    position:relative;
+    top: -15px;
+
+}
+
+.nl_loginitem .submit {
+    display: inline-block;
+    vertical-align: top;
+    height: 42px;
+    border: 1px solid #db432e;
+    border-radius: 4px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #fff;
+    padding: 0px 24px;
+    font-family:"微软雅黑";
+    background: #ec5541;
+    cursor: pointer;
+}
+.login_pw_tips.state2{
+    background-position:0px -24px;
+    color:#f98120;
+}
+.phone_yzmbtn.sended{
+    background:#ddd;
+    border:1px solid #ccc;
+    color:#999;
+}
